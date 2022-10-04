@@ -1,0 +1,15 @@
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\bin\Debug\net6.0\Data Structure.exe
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\bin\Debug\net6.0\Data Structure.deps.json
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\bin\Debug\net6.0\Data Structure.runtimeconfig.json
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\bin\Debug\net6.0\Data Structure.dll
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\bin\Debug\net6.0\Data Structure.pdb
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.csproj.AssemblyReference.cache
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.AssemblyInfoInputs.cache
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.AssemblyInfo.cs
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.dll
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\refint\Data Structure.dll
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.pdb
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\Data Structure.genruntimeconfig.cache
+C:\Users\Decagon\Documents\decagon\week2\Data Structure\obj\Debug\net6.0\ref\Data Structure.dll
