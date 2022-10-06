@@ -43,7 +43,8 @@ namespace Data_Structure
         if found or false if not found*/
         public bool Remove(T item)
         {
-            if (head == null)
+            if
+                (head == null)
             {
                 return false;
             }

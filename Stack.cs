@@ -16,12 +16,15 @@ namespace Data_Structure
             top = null;
         }
         
+
+        //check if Stack is empty
         public bool IsEmpty()
         {
             return top == null;
         }
 
 
+        //push an item to top of stack
         public void Push(T item)
         {
             Node<T> newNode = new Node<T>(item);
@@ -38,15 +41,18 @@ namespace Data_Structure
         }
 
 
+        //Remove an item from top of list and return the value of the item
+
         public T Pop()
         {
             Node<T> temp = top;
             top = temp.next;
-            temp = null;
-            return top.data;
+            
+            return temp.data;
             count--;
         }
 
+        //Check if an item exists in the Stack
         public T Peek() { return top.data; }
 
 
@@ -58,7 +64,7 @@ namespace Data_Structure
         public void PrintStack()
         {
             Node<T> temp = top;
-            while (temp != null)
+            while (temp.next != null)
             {
                 Console.Write(temp.data + " ");
                 temp = temp.next;

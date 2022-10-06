@@ -12,16 +12,19 @@ namespace Data_Structure
         Node<T> last;
         int count = 0;
 
+        //ctor
         public Queue()
         {
             first = last = null;
         }
 
+        //Check if Quueue is empty
         public bool isEmpty()
         {
             return first == null;
         }
 
+        //Method to add at the end of the list
         public void Enqueue(T item)
         {
             Node<T> newNode = new Node<T>(item);
@@ -31,11 +34,16 @@ namespace Data_Structure
             {
                 first = last = newNode;
             }
-            last.next = newNode;
-            last = newNode;
+            newNode.next = null;
+            var temp = first;
+            while (temp.next != null)
+            {
+                last = temp.next;
+            }
+            temp.next = newNode;
         }
 
-
+        //remove from the front of a Queue
         public T Dequeue()
         {
             if (first == null)
@@ -47,13 +55,11 @@ namespace Data_Structure
             count--;
 
 
-            if (first == null)
-            {
-                last = null;
-            }
+            
             return temp.data;
         }
 
+        //Get the size of the Queue
         public int Size()
         {
             return count;

@@ -1,27 +1,33 @@
 ﻿
 using Data_Structure;
 
+//Linkedlist Methods
+var newLinkedList = new Data_Structure.LinkedList<int>();
+newLinkedList.Add(80);
+newLinkedList.Add(34);
+newLinkedList.Add(32);
+newLinkedList.Remove(32);
+newLinkedList.Check(34);
+newLinkedList.Index(80);
 
-//Data_Structure.LinkedList<int> myList = new Data_Structure.LinkedList<int>();
-//myList.Add(10);
-//myList.Add(30);
-//myList.Add(56);
-//myList.Add(35);
-//Console.WriteLine(myList.Remove(56));
-//myList.PrintList();
-//Console.WriteLine(myList.Count());
 
-Data_Structure.Queue<int> stack = new Data_Structure.Queue<int>();
-stack.Enqueue(56);
-stack.Enqueue(10);
-//stack.Push(1); 
-//stack.Push(2);
-//stack.Push(3);
-//stack.Push(49);
-//stack.Pop();
-stack.Dequeue();
-stack.Dequeue();
+//Stack Methods
+var newStack = new Data_Structure.Stack<int>();
+newStack.Push(23);
+newStack.Push(18);
+newStack.Pop();
+newStack.Peek();
+newStack.IsEmpty();
+newStack.Size();
 
-//stack.PrintStack();
-Console.WriteLine(stack.Size());
+
+//Queue Methods
+var newQueue = new Data_Structure.Queue<int>();
+newQueue.Enqueue(30);
+newQueue.Enqueue(43);
+newQueue.Dequeue();
+newQueue.isEmpty();
+newQueue.Size();
+
+
 
